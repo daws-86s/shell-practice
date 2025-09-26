@@ -58,7 +58,7 @@ if [ ! -z "${FILES}" ]; then
     ### Check Archieval Success or not ###
     if [ -f $ZIP_FILE_NAME ]
     then
-        echo -e "Archeival ... $G SUCCESS $N"3
+        echo -e "Archeival ... $G SUCCESS $N"
 
         ### Delete if success ###
         while IFS= read -r filepath
